@@ -117,8 +117,8 @@
 // const myFunc = (x, y) => {
 //   console.log(x * y);
 // };
-
 // myFunc(5, 6);
+
 // input.addEventListener("keydown", (event) => {
 //   console.log(event);
 // });
