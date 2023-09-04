@@ -100,11 +100,18 @@
 //   greeting = "Good evening";
 // }
 
+// Conditional (Ternary) Operator
 // hour < 18 ? (greeting = "Good day") : (greeting = "Good evening");
-
-// let x = hour < 18 ?? "Good day";
-
 // console.log(greeting);
+
+// Nullish Coalescing Operator (??)
+// => The ?? operator returns the first argument if it is not nullish (null or undefined).
+// * I have updated this topic for your better understanding
+// let name = null;
+// let text = "Name is missing";
+// let x = name ?? text;
+// console.log(x);
+
 // +, -,/,*
 // function multiply(a, b) {
 //   return a * b;
