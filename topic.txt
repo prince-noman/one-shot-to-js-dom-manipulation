@@ -1,0 +1,43 @@
+### Basic Topics you should study.
+=> Variable
+
+
+=> Data Types
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+All JavaScript numbers are stored in a a 64-bit floating-point format.
+4. Boolean
+JavaScript Booleans
+Booleans can only have two values: true or false.
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+
+The Object Datatype
+The object data type can contain:
+1. An object
+2. An array
+3. A date
+
+
+array 
+
+Object
+
+
+Foop
+For Loop
+For in loop 
+For of
+
+
+Switch
+If Else
+
+Function
+
+DOM

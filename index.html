@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Prince Noman" />
+    <meta
+      name="description"
+      content="We are learning JavaScript DOM Manipulation"
+    />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <!-- Heading -->
+      <h1 id="header" class="header">To-Do App</h1>
+
+      <!-- Todo Add Form -->
+      <form class="new-task-container box">
+        <label for="new-task">Add New Task</label>
+        <input
+          type="text"
+          id="new-task"
+          autocomplete="off"
+          placeholder="Enter your task"
+        />
+        <input type="submit" id="addTask" value="Add Task" />
+      </form>
+      <!-- Todo Add Form -->
+
+      <!-- Incomplete Task -->
+      <div class="todo-list box">
+        <h2>Incomplete Tasks</h2>
+        <ul id="items">
+          <li class="item"><input type="checkbox" /><label>Task 1 </label></li>
+          <li class="item"><input type="checkbox" /><label>Task 2 </label></li>
+          <li class="item"><input type="checkbox" /><label>Task 3 </label></li>
+        </ul>
+      </div>
+      <!-- Incomplete Task -->
+
+      <!-- Complete Task -->
+      <div class="complete-list box">
+        <h2>Completed Tasks</h2>
+        <ul>
+          <li class="item">
+            Task Name 1<button class="delete">Delete</button>
+          </li>
+        </ul>
+      </div>
+      <!-- Complete Task -->
+    </section>
+    <!--/container-->
+    <script src="script.js"></script>
+    <script src="basic.js"></script>
+    <script src="dom.js"></script>
+  </body>
+</html>
