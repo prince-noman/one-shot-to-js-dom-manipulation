@@ -49,9 +49,11 @@
 //   console.log(x);
 // }
 
+// ul->li
 // let li = document.querySelector("#items").querySelector(".item:last-child");
 // console.log(li.innerText);
 
+//Descendant (Top to Bottom Access)
 // const parent = document.querySelector("#items");
 // const children = parent.children;
 // console.log(children);
@@ -60,17 +62,20 @@
 // const children = parent[1].children;
 // console.log(children);
 
+// Ancistor (Bottom to Top Access)
 // const child = document.querySelector("#items");
 // const p = child.parentElement;
 // const p = child.closest(".todo-list");
 // console.log(p);
 
+//Creating an Element
 // const divELement = document.createElement("div");
-// // console.log(divELement);
+// console.log(divELement);
 // divELement.className = "box";
 // divELement.setAttribute("id", "box");
 // console.log(divELement);
 
+//Insert Element to Last
 // const container = document.querySelector(".todo-list");
 // const divELement = document.createElement("div");
 // container.appendChild(divELement);
@@ -100,10 +105,20 @@
 //   console.log(a);
 // });
 
-// const myFunc = (x,y)=>{
+// * I have updated this topic for your better understanding
+// Arrow Function Syntax
+// Before Arrow:
+// const myFunc = function (x, y) {
+//   console.log(x * y);
+// };
+// myFunc(5, 6);
 
-// }
-// myFunc(5,6)
+// With Arrow Function:
+// const myFunc = (x, y) => {
+//   console.log(x * y);
+// };
+
+// myFunc(5, 6);
 // input.addEventListener("keydown", (event) => {
 //   console.log(event);
 // });
@@ -127,6 +142,7 @@
 //   console.log(event);
 // });
 
+// Form Event
 // document.querySelector("form").addEventListener("submit", (event) => {
 //   event.preventDefault();
 //   console.log(input.value);
